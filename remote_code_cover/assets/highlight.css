@@ -1,0 +1,453 @@
+.source .hll {
+    background-color: #ffffcc
+}
+
+/*.source {
+    background: #f8f8f8;
+}*/
+
+.source .c {
+    color: #408080;
+    font-style: italic
+}
+
+/* Comment */
+.source .err {
+    border: 1px solid #FF0000
+}
+
+/* Error */
+.source .k {
+    color: #008000;
+    font-weight: bold
+}
+
+/* Keyword */
+.source .o {
+    color: #666666
+}
+
+/* Operator */
+.source .ch {
+    color: #408080;
+    font-style: italic
+}
+
+/* Comment.Hashbang */
+.source .cm {
+    color: #408080;
+    font-style: italic
+}
+
+/* Comment.Multiline */
+.source .cp {
+    color: #BC7A00
+}
+
+/* Comment.Preproc */
+.source .cpf {
+    color: #408080;
+    font-style: italic
+}
+
+/* Comment.PreprocFile */
+.source .c1 {
+    color: #408080;
+    font-style: italic
+}
+
+/* Comment.Single */
+.source .cs {
+    color: #408080;
+    font-style: italic
+}
+
+/* Comment.Special */
+.source .gd {
+    color: #A00000
+}
+
+/* Generic.Deleted */
+.source .ge {
+    font-style: italic
+}
+
+/* Generic.Emph */
+.source .gr {
+    color: #FF0000
+}
+
+/* Generic.Error */
+.source .gh {
+    color: #000080;
+    font-weight: bold
+}
+
+/* Generic.Heading */
+.source .gi {
+    color: #00A000
+}
+
+/* Generic.Inserted */
+.source .go {
+    color: #888888
+}
+
+/* Generic.Output */
+.source .gp {
+    color: #000080;
+    font-weight: bold
+}
+
+/* Generic.Prompt */
+.source .gs {
+    font-weight: bold
+}
+
+/* Generic.Strong */
+.source .gu {
+    color: #800080;
+    font-weight: bold
+}
+
+/* Generic.Subheading */
+.source .gt {
+    color: #0044DD
+}
+
+/* Generic.Traceback */
+.source .kc {
+    color: #008000;
+    font-weight: bold
+}
+
+/* Keyword.Constant */
+.source .kd {
+    color: #008000;
+    font-weight: bold
+}
+
+/* Keyword.Declaration */
+.source .kn {
+    color: #008000;
+    font-weight: bold
+}
+
+/* Keyword.Namespace */
+.source .kp {
+    color: #008000
+}
+
+/* Keyword.Pseudo */
+.source .kr {
+    color: #008000;
+    font-weight: bold
+}
+
+/* Keyword.Reserved */
+.source .kt {
+    color: #B00040
+}
+
+/* Keyword.Type */
+.source .m {
+    color: #666666
+}
+
+/* Literal.Number */
+.source .s {
+    color: #BA2121
+}
+
+/* Literal.String */
+.source .na {
+    color: #7D9029
+}
+
+/* Name.Attribute */
+.source .nb {
+    color: #008000
+}
+
+/* Name.Builtin */
+.source .nc {
+    color: #0000FF;
+    font-weight: bold
+}
+
+/* Name.Class */
+.source .no {
+    color: #880000
+}
+
+/* Name.Constant */
+.source .nd {
+    color: #AA22FF
+}
+
+/* Name.Decorator */
+.source .ni {
+    color: #999999;
+    font-weight: bold
+}
+
+/* Name.Entity */
+.source .ne {
+    color: #D2413A;
+    font-weight: bold
+}
+
+/* Name.Exception */
+.source .nf {
+    color: #0000FF
+}
+
+/* Name.Function */
+.source .nl {
+    color: #A0A000
+}
+
+/* Name.Label */
+.source .nn {
+    color: #0000FF;
+    font-weight: bold
+}
+
+/* Name.Namespace */
+.source .nt {
+    color: #008000;
+    font-weight: bold
+}
+
+/* Name.Tag */
+.source .nv {
+    color: #19177C
+}
+
+/* Name.Variable */
+.source .ow {
+    color: #AA22FF;
+    font-weight: bold
+}
+
+/* Operator.Word */
+.source .w {
+    color: #bbbbbb
+}
+
+/* Text.Whitespace */
+.source .mb {
+    color: #666666
+}
+
+/* Literal.Number.Bin */
+.source .mf {
+    color: #666666
+}
+
+/* Literal.Number.Float */
+.source .mh {
+    color: #666666
+}
+
+/* Literal.Number.Hex */
+.source .mi {
+    color: #666666
+}
+
+/* Literal.Number.Integer */
+.source .mo {
+    color: #666666
+}
+
+/* Literal.Number.Oct */
+.source .sa {
+    color: #BA2121
+}
+
+/* Literal.String.Affix */
+.source .sb {
+    color: #BA2121
+}
+
+/* Literal.String.Backtick */
+.source .sc {
+    color: #BA2121
+}
+
+/* Literal.String.Char */
+.source .dl {
+    color: #BA2121
+}
+
+/* Literal.String.Delimiter */
+.source .sd {
+    color: #BA2121;
+    font-style: italic
+}
+
+/* Literal.String.Doc */
+.source .s2 {
+    color: #BA2121
+}
+
+/* Literal.String.Double */
+.source .se {
+    color: #BB6622;
+    font-weight: bold
+}
+
+/* Literal.String.Escape */
+.source .sh {
+    color: #BA2121
+}
+
+/* Literal.String.Heredoc */
+.source .si {
+    color: #BB6688;
+    font-weight: bold
+}
+
+/* Literal.String.Interpol */
+.source .sx {
+    color: #008000
+}
+
+/* Literal.String.Other */
+.source .sr {
+    color: #BB6688
+}
+
+/* Literal.String.Regex */
+.source .s1 {
+    color: #BA2121
+}
+
+/* Literal.String.Single */
+.source .ss {
+    color: #19177C
+}
+
+/* Literal.String.Symbol */
+.source .bp {
+    color: #008000
+}
+
+/* Name.Builtin.Pseudo */
+.source .fm {
+    color: #0000FF
+}
+
+/* Name.Function.Magic */
+.source .vc {
+    color: #19177C
+}
+
+/* Name.Variable.Class */
+.source .vg {
+    color: #19177C
+}
+
+/* Name.Variable.Global */
+.source .vi {
+    color: #19177C
+}
+
+/* Name.Variable.Instance */
+.source .vm {
+    color: #19177C
+}
+
+/* Name.Variable.Magic */
+.source .il {
+    color: #666666
+}
+
+/* Literal.Number.Integer.Long */
+.source .uncovered {
+    background-color: #ff40403b
+}
+
+.source .covered {
+    background-color: rgba(71, 255, 129, 0.23)
+}
+
+/* Custom uncovered line */
+
+ul.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.links li {
+    float: left;
+}
+
+a, a:visited {
+    display: block;
+    margin: 3px 15px 3px 0;
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: rgb(0, 187, 255);
+}
+
+body {
+    font-family: Consolas, Liberation Mono, Menlo, Courier, monospace;
+    margin: 0;
+}
+
+.sourcetable pre {
+    font-family: Consolas, Liberation Mono, Menlo, Courier, monospace;
+    font-size: 14px;
+}
+
+.header {
+    margin: 12px 16px 0;
+}
+
+.status-line {
+    height: 10px;
+}
+
+.cell.low {
+    background: #FCE1E5;
+}
+
+.cell.medium {
+    background: #fff4c2;
+}
+
+.cell.high {
+    background: rgb(230, 245, 208);
+}
+
+.status-line.low {
+    background: #C21F39;
+}
+
+.status-line.medium {
+    background: #f9cd0b;
+}
+
+.status-line.high {
+    background: rgb(77,146,33);
+}
+
+.table-summary th {
+    background: #eee;
+}
+
+.table-summary th, .table-summary td {
+    border: 1px solid #bbb;
+    text-align: left;
+    padding: 8px;
+}
+
+.table-summary tr.total {
+    font-weight: bold;
+}

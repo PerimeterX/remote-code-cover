@@ -1,0 +1,6 @@
+.env
+build/
+*.egg-info
+temp/
+setup.cfg
+coverage/

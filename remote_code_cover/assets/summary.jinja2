@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coverage Summary</title>
+    <link rel="stylesheet" type="text/css" href="highlight.css">
+</head>
+<body>
+<div class="status-line {{ coverage_level }}"></div>
+<div class="header">
+    <ul class="links">
+        <li><a href="index.html">Summary</a></li>
+        {% for file_name in file_names %}
+            <li><a href="{{ file_name }}.html">{{ file_name }}.vcl</a></li>
+        {% endfor %}
+    </ul>
+    <h2>Coverage Summary</h2>
+    <table class="table-summary">
+        <tr>
+            <th>File</th>
+            <th>Lines (%)</th>
+            <th>Lines (Covered / Total)</th>
+        </tr>
+        {% for file in files %}
+            <tr class="cell {{ file['coverage_level'] }}">
+                <td><a href="{{ file['name'] }}.html">{{ file['name'] }}.vcl</a></td>
+                <td>{{ file['coverage_line_percentage'] }}%</td>
+                <td>{{ file['covered_line_count'] }}/{{ file['tested_line_count'] }}</td>
+            </tr>
+        {% endfor %}
+        <tr class="total cell {{ coverage_level }}">
+            <td>Total</td>
+            <td>{{ global['coverage_line_percentage'] }}%</td>
+            <td>{{ global['covered_line_count'] }}/{{ global['tested_line_count'] }}</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

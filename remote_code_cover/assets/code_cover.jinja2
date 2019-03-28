@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="highlight.css">
+</head>
+<body>
+<div class="status-line {{ coverage_level }}"></div>
+<div class="header">
+    <ul class="links">
+        <li><a href="index.html">Summary</a></li>
+        {% for file_name in file_names %}
+            <li><a href="{{ file_name }}.html">{{ file_name }}.vcl</a></li>
+        {% endfor %}
+    </ul>
+    <h2>{{ title }}</h2>
+    <p class="stats">{{ file['coverage_line_percentage'] }}% Lines
+        ({{ file['covered_line_count'] }}/{{ file['tested_line_count'] }})</p>
+</div>
+{{ source }}
+</body>
+</html>

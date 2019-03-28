@@ -1,0 +1,2 @@
+include README.md
+recursive-include remote_code_cover/assets *
